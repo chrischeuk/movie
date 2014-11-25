@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>Secret Number</title>
+
+  </head>
+  <body>
+    <h1>Welcome to Movie app</h1>
+    <% @movie.each do |n| %> 
+      <t>
+        Title: <%= n.title %><br /> 
+        Description: <%= n.description %> <br />
+        Year released: <%= n.year_released %> <br />
+        <br />
+    <% end  %>
+
+  </t>
+  </body>
+</html>
